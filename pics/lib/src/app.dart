@@ -30,7 +30,7 @@ class AppState extends State<App> {
   Widget build(context) {
     return MaterialApp(
       home: Scaffold(
-        body: ImageList(images),
+        body: ImageList(images: images),
         floatingActionButton: FloatingActionButton(
           onPressed: fetchImage,
           child: const Icon(Icons.add),
