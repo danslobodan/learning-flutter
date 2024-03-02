@@ -56,7 +56,9 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
         labelText: 'Password',
       ),
       obscureText: true,
-      validator: (value) {},
+      validator: (value) {
+        return null;
+      },
       onSaved: validatePassword,
     );
   }
