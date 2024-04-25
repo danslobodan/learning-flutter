@@ -68,7 +68,7 @@ class HomeState extends State<Home> with TickerProviderStateMixin {
           child: child!,
         );
       },
-      child: Cat(),
+      child: const Cat(),
     );
   }
 

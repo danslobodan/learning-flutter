@@ -6,6 +6,8 @@ import 'models/image_model.dart';
 import 'widgets/image_list.dart';
 
 class App extends StatefulWidget {
+  const App({super.key});
+
   @override
   State<StatefulWidget> createState() {
     return AppState();
